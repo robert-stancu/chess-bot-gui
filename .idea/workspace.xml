@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd013c74-53a7-484f-8e5e-0b456c93f4df" name="Default Changelist" comment="" />
+    <list default="true" id="dd013c74-53a7-484f-8e5e-0b456c93f4df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Robica.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chess-bot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/Alliance$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/Alliance$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/Alliance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Board$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/BoardUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$AttackMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$CastleMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$KingSideCastleMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$MajorMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$MoveFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$NullMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$PawnAttackMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$PawnEnPassantAttackMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$PawnJump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$PawnMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move$QueenSideCastleMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Tile$EmptyTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Tile$OccupiedTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/board/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Bishop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Pawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece$PieceType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece$PieceType$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece$PieceType$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece$PieceType$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece$PieceType$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece$PieceType$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece$PieceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/pieces/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/BlackPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/MoveStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/MoveStatus$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/MoveStatus$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/MoveStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/MoveTransition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/engine/player/WhitePlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/GameHistoryPanel$DataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/GameHistoryPanel$Row.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/GameHistoryPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$BoardDirection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$BoardDirection$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$BoardDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$BoardPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$MoveLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$TilePanel$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$TilePanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table$TilePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/TakenPiecesPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/TakenPiecesPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chess_v2/com/chess/gui/TakenPiecesPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/player/BlackPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/player/BlackPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/player/MoveTransition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/player/MoveTransition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/player/WhitePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/player/WhitePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/gui/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/gui/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/gui/TakenPiecesPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/gui/TakenPiecesPanel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,20 +93,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gHYVwmwrSWt4IvBQwC3Vez4fgC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/guava-23.0.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -35,7 +132,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tests.chess.engine.board" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chess.engine.player.ai" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chess.Main" />
       <module name="chess-bot" />
@@ -49,49 +157,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="BoardTest.foolsMateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chess-bot" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="chess-bot" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.chess.engine.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests.chess.engine.board" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.chess.engine.board.BoardTest" />
+      <option name="METHOD_NAME" value="foolsMateTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,6 +176,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BoardTest.foolsMateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +191,12 @@
       <option name="presentableId" value="Default" />
       <updated>1597773011910</updated>
       <workItem from="1597773014785" duration="671000" />
-      <workItem from="1597931010037" duration="2423000" />
+      <workItem from="1597931010037" duration="5113000" />
+      <workItem from="1597942615435" duration="3233000" />
+      <workItem from="1598017590806" duration="1406000" />
+      <workItem from="1598021390004" duration="20748000" />
+      <workItem from="1598110013589" duration="8585000" />
+      <workItem from="1598272695237" duration="237000" />
     </task>
     <servers />
   </component>
@@ -121,33 +204,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="976" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598048258435">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="92" y="92" width="1736" height="976" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1598048258435" />
+    <state x="765" y="289" key="#com.intellij.ide.util.MemberChooser" timestamp="1598120840284">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="765" y="289" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1598120840284" />
     <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1597773635569">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1597773635569" />
-    <state width="938" height="321" key="GridCell.Tab.0.bottom" timestamp="1597933458825">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1598272941379">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="938" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1597933458825" />
-    <state width="938" height="321" key="GridCell.Tab.0.center" timestamp="1597933458825">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1598272941379" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1598272941378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="938" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1597933458825" />
-    <state width="938" height="321" key="GridCell.Tab.0.left" timestamp="1597933458825">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1598272941378" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1598272941378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="938" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1597933458825" />
-    <state width="938" height="321" key="GridCell.Tab.0.right" timestamp="1597933458825">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1598272941378" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1598272941379">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="938" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1597933458825" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1598272941379" />
+    <state width="1877" height="321" key="GridCell.Tab.1.bottom" timestamp="1597935397298">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1597935397298" />
+    <state width="1877" height="321" key="GridCell.Tab.1.center" timestamp="1597935397297">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1597935397297" />
+    <state width="1877" height="321" key="GridCell.Tab.1.left" timestamp="1597935397297">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1597935397297" />
+    <state width="1877" height="321" key="GridCell.Tab.1.right" timestamp="1597935397297">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1597935397297" />
     <state x="440" y="154" key="SettingsEditor" timestamp="1597773642393">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="440" y="154" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1597773642393" />
-    <state x="656" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1597931017327">
+    <state x="656" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1598272742753">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="656" y="404" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1597931017327" />
+    <state x="656" y="404" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1598272742753" />
+    <state x="665" y="473" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598032986665">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="665" y="473" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1160@0.0.1920.1160" timestamp="1598032986665" />
+    <state x="731" y="283" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598033033016">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="731" y="283" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1598033033016" />
   </component>
 </project>

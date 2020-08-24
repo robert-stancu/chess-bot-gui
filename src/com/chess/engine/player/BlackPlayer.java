@@ -12,6 +12,8 @@ import com.chess.engine.pieces.Piece;
 import com.chess.engine.pieces.Rook;
 import com.google.common.collect.ImmutableList;
 
+import static com.chess.engine.board.Move.*;
+
 public class BlackPlayer extends Player {
 
     public BlackPlayer(final Board board, final Collection<Move> whiteStandardLegalMoves,
@@ -48,21 +50,25 @@ public class BlackPlayer extends Player {
                     if (Player.calculateAttacksOnTile(5, opponentsLegals).isEmpty()
                             && Player.calculateAttacksOnTile(6, opponentsLegals).isEmpty()
                             && rookTile.getPiece().getPieceType().isRook()) {
-                        kingCastles.add(new Move.KingSideCastleMove(this.board, this.playerKing, 6,
+                        kingCastles.add(new KingSideCastleMove(this.board, this.playerKing, 6,
                                 (Rook) rookTile.getPiece(), rookTile.getTileCoordinate(), 5));
                     }
                 }
             }
 
             // queenside
-            if (!this.board.getTile(3).isTileOccupied() && !this.board.getTile(2).isTileOccupied()
-                    && !this.board.getTile(1).isTileOccupied()) {
+            if (!this.board.getTile(1).isTileOccupied() && !this.board.getTile(2).isTileOccupied()
+                    && !this.board.getTile(3).isTileOccupied()) {
                 final Tile rookTile = this.board.getTile(0);
 
                 if (rookTile.isTileOccupied() && rookTile.getPiece().isFirstMove()) {
                     // add castlemove
-                    kingCastles.add(new Move.QueenSideCastleMove(this.board, this.playerKing, 2,
-                            (Rook) rookTile.getPiece(), rookTile.getTileCoordinate(), 3));
+                    if(Player.calculateAttacksOnTile(2, opponentsLegals).isEmpty() &&
+                        Player.calculateAttacksOnTile(3, opponentsLegals).isEmpty() &&
+                        rookTile.getPiece().getPieceType().isRook()) {
+                        kingCastles.add(new QueenSideCastleMove(this.board, this.playerKing, 2,
+                                (Rook) rookTile.getPiece(), rookTile.getTileCoordinate(), 3));
+                    }
                 }
             }
         }

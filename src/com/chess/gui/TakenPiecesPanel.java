@@ -1,9 +1,6 @@
 package com.chess.gui;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridLayout;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -28,9 +25,9 @@ public class TakenPiecesPanel extends JPanel {
     private final JPanel northPanel;
     private final JPanel southPanel;
 
-    private static final Color PANEL_COLOR = Color.decode("0xFDFE6");
+    private static final Color PANEL_COLOR = Color.decode("#ffffff");
     private static final EtchedBorder PANEL_BORDER = new EtchedBorder(EtchedBorder.RAISED);
-    private static final Dimension TAKEN_PIECES_DIMENSION = new Dimension(40, 80);
+    private static final Dimension TAKEN_PIECES_DIMENSION = new Dimension(80, 80);
 
     public TakenPiecesPanel() {
         super(new BorderLayout());
@@ -70,28 +67,18 @@ public class TakenPiecesPanel extends JPanel {
             }
         }
 
-        Collections.sort(whiteTakenPieces, new Comparator<Piece>() {
-            @Override
-            public int compare(Piece p1, Piece p2) {
-                return Ints.compare(p1.getPieceValue(), p2.getPieceValue());
-            }
-        });
+        Collections.sort(whiteTakenPieces, (p1, p2) -> Ints.compare(p1.getPieceValue(), p2.getPieceValue()));
 
-        Collections.sort(blackTakenPieces, new Comparator<Piece>() {
-            @Override
-            public int compare(Piece p1, Piece p2) {
-                return Ints.compare(p1.getPieceValue(), p2.getPieceValue());
-            }
-        });
+        Collections.sort(blackTakenPieces, (p1, p2) -> Ints.compare(p1.getPieceValue(), p2.getPieceValue()));
 
         for (final Piece takenPiece : whiteTakenPieces) {
             try {
                 final BufferedImage image = ImageIO.read(new File("art/pieces/"
-                        + takenPiece.getPieceAlliance().toString().substring(0, 1) + " " + takenPiece.toString()));
-
-                final ImageIcon icon = new ImageIcon(image);
-                final JLabel imageLabel = new JLabel();
-                this.southPanel.add(imageLabel);
+                        + takenPiece.getPieceAlliance().toString().substring(0, 1) + takenPiece.toString() + ".png"));
+                final Image newImage = image.getScaledInstance(30, 30, Image.SCALE_DEFAULT);
+                final ImageIcon icon = new ImageIcon(newImage);
+                final JLabel imageLabel = new JLabel(icon);
+                this.northPanel.add(imageLabel);
             } catch (final IOException e) {
                 e.printStackTrace();
             }
@@ -100,10 +87,10 @@ public class TakenPiecesPanel extends JPanel {
         for (final Piece takenPiece : blackTakenPieces) {
             try {
                 final BufferedImage image = ImageIO.read(new File("art/pieces/"
-                        + takenPiece.getPieceAlliance().toString().substring(0, 1) + " " + takenPiece.toString()));
-
-                final ImageIcon icon = new ImageIcon(image);
-                final JLabel imageLabel = new JLabel();
+                        + takenPiece.getPieceAlliance().toString().substring(0, 1) + takenPiece.toString() + ".png"));
+                final Image newImage = image.getScaledInstance(30, 30, Image.SCALE_DEFAULT);
+                final ImageIcon icon = new ImageIcon(newImage);
+                final JLabel imageLabel = new JLabel(icon);
                 this.southPanel.add(imageLabel);
             } catch (final IOException e) {
                 e.printStackTrace();
