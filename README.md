@@ -2,9 +2,6 @@
 
 Chess Graphical User Interface and Engine developed from scratch in Java.
 
-![starting position](screenshots/pic_chess_1.jpg)
-
-
 ## Features
 
 * Legal moves highlight
