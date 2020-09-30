@@ -10,7 +10,7 @@ Chess Graphical User Interface and Engine developed from scratch in Java.
 * Move log
 * Taken pieces shown
 
-![features](screenshots/pic_chess_3.jpg) 
+![features](screenshots/newpic.jpg) 
 
 
 ## Playing modes
@@ -19,7 +19,7 @@ Chess Graphical User Interface and Engine developed from scratch in Java.
 * Human vs Engine
 * Engine vs Engine
 
-![features](screenshots/pic_chess_4.jpg)
+![playingmodes](screenshots/newpic2.jpg)
 
 ## Engine
 Simple minmax with max depth = 4. Even so, the AI plays decently:
